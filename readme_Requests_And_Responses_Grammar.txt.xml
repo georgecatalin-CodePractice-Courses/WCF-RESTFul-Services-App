@@ -1,0 +1,49 @@
+﻿Model de comanda Rest pentru PUT (Update in SQL)
+host: 
+http://localhost:51239
+
+path:
+
+/FleetService.svc/UpdateShip/305975000/9267285/updated NATACHA-C/V2GK6/Antigua Barbuda/General Cargo/7752/10261/12-10-2018/true
+******
+
+Model de comanda Rest pentru POST (INSERT in SQL)
+
+host: 
+http://localhost:51239
+
+path:
+/FleetService.svc/AddShip/305975000/9267285/NATACHA-C/V2GK6/Antigua Barbuda/Cargo/7752/10261/2003-01-16/false
+
+*******
+
+Model de comanda Rest pentru DELETE  (DELETE in SQL)
+
+host: 
+http://localhost:51239
+
+path: 
+/FleetService.svc/RemoveShip/1978000
+
+******
+
+Model de comanda Rest pentru GET  (SELECT fara WHERE in SQL)
+
+host: 
+http://localhost:51239
+
+path: 
+/FleetService.svc/Ships/
+
+******
+
+Model de comanda Rest pentru GET  (SELECT cu WHERE in SQL)
+
+host: 
+http://localhost:51239
+
+path: 
+/FleetService.svc/Ships/7800100
+
+
+
